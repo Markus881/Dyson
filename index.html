@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			height: 100%;
+			width: 100%;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 17px;
+			letter-spacing: 0.02em;
+			color: #000000;
+		}
+
+		ul,
+		ol,
+		li {
+			list-style: none;
+			display: flex;
+			width: 346px;
+			padding: 0;
+		}
+
+		a {
+			text-decoration: none;
+			color: black;
+		}
+	</style>
+	<title>Dyson</title>
+</head>
+
+<body>
+	<div class="wrapper" style="display: flex; justify-content: center;">
+		<div class="conteiner" style="background: #E5E5E5; width: 1000px;">
+			<header class="header">
+				<div class="header__logo"><a href="#" class="logo"><img src="img/logo/logo 1.svg" alt="logo"></a></div>
+				<div class="header__menu">
+					<ul class="header__list">
+						<li class="header__item"> <a href="#">HOME</a> </li>
+						<li class="header__item"> <a href="#">DESIGN</a> </li>
+						<li class="header__item"> <a href="#">APP</a> </li>
+						<li class="header__item"> <a href="#">YOUTUBE</a> </li>
+					</ul>
+				</div>
+			</header>
+			<main class="main">
+				<img class="img" src="img/img_1.png" alt="прірва та океан">
+				<form>
+
+					<div><input type="Name" placeholder="Name" required></div>
+
+					<div><input type="Surname" placeholder="Surname" required></div>
+
+					<div><input type="Email" placeholder="Email" required></div>
+
+					<div>
+						<label>
+							<input name="radio" type="radio" checked required>
+							Choose 1
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input name="radio" type="radio" required>
+							Choose2
+						</label>
+					</div>
+
+					<div>
+						<label>
+							<input type="checkbox" required>
+							I agree
+						</label>
+					</div>
+
+					<div>
+						<select>
+							<option>+38</option>
+							<option>380</option>
+						</select>
+					</div>
+
+					<button>Pre-order</button>
+
+					<div>
+						<video src="video/videoplayback.mp4" poster="img/img_2.png" controls loop>
+						</video>
+					</div>
+				</form>
+			</main>
+		</div>
+	</div>
+</body>
+
+</html>
